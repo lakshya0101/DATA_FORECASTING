@@ -1,0 +1,10 @@
+{
+  "created_on": "2026-07-15T07:14:06.834756Z",
+  "source_dataset": "mahacef200_master_dataset_clean.csv",
+  "phase": "Executive Dashboard",
+  "script_name": "13_executive_dashboard.py",
+  "git_commit": "5d4226c",
+  "version": "1.0.0",
+  "r2_ols": 0.6912,
+  "rmse_ols": 7.8914
+}

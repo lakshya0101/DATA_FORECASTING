@@ -1,0 +1,12 @@
+{
+  "created_on": "2026-07-15T07:14:02.767554Z",
+  "source_dataset": "mahacef200_master_dataset_clean.csv",
+  "phase": "Phase 9 - Forecast Validation",
+  "script_name": "09_forecast_validation_dashboard.py",
+  "git_commit": "5d4226c",
+  "version": "1.0.0",
+  "validation_period": "Jan 2026 - Jun 2026",
+  "champion_model": "SARIMAX (Sales-only)",
+  "mae": 6.1604,
+  "rmse": 13.1566
+}

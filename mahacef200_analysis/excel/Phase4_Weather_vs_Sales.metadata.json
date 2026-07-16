@@ -1,0 +1,10 @@
+{
+  "created_on": "2026-07-14T07:05:12.829496Z",
+  "source_dataset": "mahacef200_master_dataset_clean.csv",
+  "phase": "Phase 4 - Weather vs Sales Comparison",
+  "script_name": "07_weather_vs_sales.py",
+  "git_commit": "5d4226c",
+  "version": "1.0.0",
+  "rows": 39,
+  "months": 39
+}

@@ -1,0 +1,6 @@
+﻿model,model_label,n_obs,n_predictors,r_squared,adj_r_squared,aic,bic,f_stat,f_pvalue,f_stars,rmse,durbin_watson,dw_flag,bp_lm,bp_pvalue,bp_stars,bp_flag
+1a,Model 1a Rainfall,39,1,0.0769,0.0519,318.84,322.17,3.0818,0.087452,ns,13.701,1.1,Positive autocorr,0.2544,0.613976,ns,Homoskedastic
+1b,Model 1b Temperature,39,1,0.0771,0.0522,318.83,322.16,3.0929,0.086905,ns,13.6991,0.9974,Positive autocorr,4.9991,0.025361,*,Heteroskedastic
+1c,Model 1c Humidity,39,1,0.0198,-0.0067,321.18,324.51,0.7472,0.392944,ns,14.1183,1.0243,Positive autocorr,0.0148,0.90303,ns,Homoskedastic
+2,Model 2 Combined,39,3,0.2039,0.1357,317.07,323.72,2.9885,0.044138,*,12.7234,1.3637,Positive autocorr,4.8254,0.18504,ns,Homoskedastic
+3,Model 3 Full,36,7,0.6912,0.614,266.9,279.57,8.9533,9e-06,***,7.8914,1.8749,No autocorr,7.2002,0.40834,ns,Homoskedastic

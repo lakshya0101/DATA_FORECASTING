@@ -1,0 +1,22 @@
+﻿test,series,null_hypothesis,statistic,p_value,stars,effect_size,effect_label,decision,business_interpretation,category
+Shapiro-Wilk,Net Sales (Raw),Data is normally distributed,0.9324,0.02142,*,—,—,Reject H₀,Non-normal; prefer non-parametric tests / log-transform.,Distribution
+Shapiro-Wilk,Net Sales (Log),Data is normally distributed,0.8135,2e-05,***,—,—,Reject H₀,Non-normal; prefer non-parametric tests / log-transform.,Distribution
+Shapiro-Wilk,Net Sales (Detrended),Data is normally distributed,0.9538,0.11047,ns,—,—,Fail to Reject H₀,Normality confirmed; parametric tests valid.,Distribution
+Shapiro-Wilk,Temperature,Data is normally distributed,0.9233,0.01101,*,—,—,Reject H₀,Non-normal; prefer non-parametric tests / log-transform.,Distribution
+Shapiro-Wilk,Humidity,Data is normally distributed,0.9255,0.01292,*,—,—,Reject H₀,Non-normal; prefer non-parametric tests / log-transform.,Distribution
+Shapiro-Wilk,Rainfall,Data is normally distributed,0.7832,0.0,***,—,—,Reject H₀,Non-normal; prefer non-parametric tests / log-transform.,Distribution
+ADF,Net Sales (Levels),Unit root present (non-stationary),-4.9859,0.00022,***,—,—,Reject H₀ → Stationary,Series is stationary; can model in levels.,Stationarity
+KPSS,Net Sales (Levels),Series is stationary,0.0484,0.1,ns,—,—,Fail to Reject H₀ → Stationary,Stationarity confirmed by KPSS.,Stationarity
+ADF,Net Sales (1st Diff),Unit root present (non-stationary),-7.4145,0.0,***,—,—,Reject H₀ → Stationary,Series is stationary; can model in levels.,Stationarity
+KPSS,Net Sales (1st Diff),Series is stationary,0.0636,0.1,ns,—,—,Fail to Reject H₀ → Stationary,Stationarity confirmed by KPSS.,Stationarity
+ADF,Temperature (Levels),Unit root present (non-stationary),-1.6627,0.76694,ns,—,—,Fail to Reject H₀ → Non-stationary,Differencing required before regression modelling.,Stationarity
+KPSS,Temperature (Levels),Series is stationary,0.043,0.1,ns,—,—,Fail to Reject H₀ → Stationary,Stationarity confirmed by KPSS.,Stationarity
+ADF,Rainfall (Levels),Unit root present (non-stationary),-7.0771,0.0,***,—,—,Reject H₀ → Stationary,Series is stationary; can model in levels.,Stationarity
+KPSS,Rainfall (Levels),Series is stationary,0.038,0.1,ns,—,—,Fail to Reject H₀ → Stationary,Stationarity confirmed by KPSS.,Stationarity
+Levene,Net Sales — 4 Seasons,Equal variances across seasons,4.008,0.01491,*,—,—,Reject H₀ → Unequal variances (Welch ANOVA preferred),Sales variance differs by season; consider heteroskedastic models.,Variance
+"Independent t-test
+(Welch)",Monsoon vs Non-Monsoon,No difference in mean sales,1.1235,0.27661,ns,d = 0.439,Small,Fail to Reject H₀,No significant mean difference. Weather-driven peaks may be driven by specific months rather than the full monsoon block.,Group Comparison
+Paired t-test,2025 vs 2024 (n=12 months),No year-over-year mean change,1.5395,0.15195,ns,d = -0.163,Negligible,Fail to Reject H₀,No significant YoY change. 2025 sales align with 2024 levels.,Group Comparison
+One-way ANOVA,Net Sales by Season (4 groups),All seasonal means are equal,3.417,0.0278,*,η² = 0.227,Large,Reject H₀,"Sales differ significantly by season (η²=0.227, Large effect). Season is a key structural variable for the regression model.",Group Comparison
+Mann-Whitney U,Monsoon vs Non-Monsoon,Distributions are identical,222.0,0.1178,ns,r = -0.314,Small,Fail to Reject H₀,Non-parametric test: no distributional difference by monsoon period.,Group Comparison
+Kruskal-Wallis,Net Sales by Season (4 groups),All seasonal distributions are equal,13.2137,0.0042,**,η² = 0.292,Large,Reject H₀,"Non-parametric confirmation: seasonal sales distributions differ (η²=0.292, Large effect). Robust to outliers and non-normality.",Group Comparison

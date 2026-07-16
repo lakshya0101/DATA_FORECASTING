@@ -1,0 +1,13 @@
+{
+  "created_on": "2026-07-15T07:10:33.094519Z",
+  "source_dataset": "mahacef200_master_dataset_clean.csv",
+  "phase": "Phase 8 - Machine Learning",
+  "script_name": "11_machine_learning.py",
+  "git_commit": "5d4226c",
+  "version": "1.0.0",
+  "cv_strategy": "TimeSeriesSplit(n_splits=5)",
+  "baseline_r2": 0.6912,
+  "baseline_rmse_M": 7.8914,
+  "xgb_available": true,
+  "lgb_available": true
+}

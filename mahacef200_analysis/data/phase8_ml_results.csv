@@ -1,0 +1,6 @@
+﻿model,complexity,interpretability,n_features,r2_insample,rmse_insample,mae_insample,r2_cv,rmse_cv,mae_cv,train_time_s,beats_baseline_r2,beats_baseline_rmse
+Naive Baseline,0,Trivial,7,-1.2304,21.4929,18.0245,,,,0.0,False,False
+OLS Regression,1,High,7,0.725,7.4473,5.7815,0.6912,7.8914,,1.04,False,False
+Random Forest,3,Medium,11,0.8056,6.2615,4.2709,-0.1792,10.7176,9.253,10.0,False,False
+XGBoost,4,Low,11,0.986,1.6818,1.1845,0.0909,9.7876,7.4079,0.83,False,False
+LightGBM,4,Low,11,0.9857,1.6962,0.8103,-0.0262,10.713,8.1464,6.47,False,False

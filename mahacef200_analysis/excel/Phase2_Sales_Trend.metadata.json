@@ -1,0 +1,11 @@
+{
+  "created_on": "2026-07-13T19:23:15.334811Z",
+  "source_dataset": "mahacef200_master_dataset_clean.csv",
+  "phase": "Phase 2 - Sales Trend Analysis",
+  "script_name": "05_sales_trend_analysis.py",
+  "git_commit": "5d4226c",
+  "version": "1.0.0",
+  "rows": 39,
+  "months": 39,
+  "total_net_sales_inr": 1695598641.8200998
+}

@@ -1,0 +1,13 @@
+﻿variable,var_label,unit,lag,n,pearson_r,pearson_p,pearson_stars,spearman_r,spearman_p,spearman_stars
+avg_temperature_c,Temperature,°C,0,39,0.2777,0.086905,ns,0.256,0.115712,ns
+avg_temperature_c,Temperature,°C,1,38,0.3156,0.053568,ns,0.3034,0.064027,ns
+avg_temperature_c,Temperature,°C,2,37,0.3725,0.023162,*,0.4488,0.005332,**
+avg_temperature_c,Temperature,°C,3,36,0.3913,0.018269,*,0.4883,0.002515,**
+avg_humidity,Humidity,%,0,39,0.1407,0.392944,ns,0.139,0.398777,ns
+avg_humidity,Humidity,%,1,38,0.4367,0.006119,**,0.3588,0.026951,*
+avg_humidity,Humidity,%,2,37,0.2684,0.108289,ns,0.1992,0.23731,ns
+avg_humidity,Humidity,%,3,36,-0.1624,0.343942,ns,-0.1076,0.532211,ns
+total_rainfall_mm,Rainfall,mm,0,39,0.2773,0.087452,ns,0.1876,0.252779,ns
+total_rainfall_mm,Rainfall,mm,1,38,0.7168,0.0,***,0.6161,3.8e-05,***
+total_rainfall_mm,Rainfall,mm,2,37,0.6674,6e-06,***,0.6151,5.1e-05,***
+total_rainfall_mm,Rainfall,mm,3,36,0.3209,0.056348,ns,0.3047,0.070778,ns

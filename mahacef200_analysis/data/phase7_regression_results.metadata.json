@@ -1,0 +1,18 @@
+{
+  "created_on": "2026-07-14T10:40:20.837119Z",
+  "source_dataset": "mahacef200_master_dataset_clean.csv",
+  "phase": "Phase 7 - Regression Analysis",
+  "script_name": "10_regression_analysis.py",
+  "git_commit": "5d4226c",
+  "version": "1.0.0",
+  "models": [
+    "1a",
+    "1b",
+    "1c",
+    "2",
+    "3"
+  ],
+  "lag_rainfall": 1,
+  "lag_humidity": 1,
+  "lag_temperature": 3
+}

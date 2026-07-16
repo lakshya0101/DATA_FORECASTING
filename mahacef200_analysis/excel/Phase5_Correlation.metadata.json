@@ -1,0 +1,11 @@
+{
+  "created_on": "2026-07-14T07:33:48.596369Z",
+  "source_dataset": "mahacef200_master_dataset_clean.csv",
+  "phase": "Phase 5 - Correlation Analysis",
+  "script_name": "08_correlation_analysis.py",
+  "git_commit": "5d4226c",
+  "version": "1.0.0",
+  "lag_correlation_rows": 12,
+  "state_correlation_rows": 72,
+  "bonferroni_alpha": 0.0006944
+}
